@@ -1,0 +1,63 @@
+@import "../../fonts/font-icon/font-icon.css";
+@import "../../fonts/San-Francisco-Pro/font-sf-pro.css";
+html {
+	// overflow-x: hidden;
+}
+body {
+	font-family: "SF-Pro", "icomoon", sans-serif;
+	// overflow-x: hidden;
+}
+ins {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	// scrollbar-color: #8785fe #000000;
+}
+// .scroller {
+// 	overflow-y: scroll;
+// 	scrollbar-color: #0a4c95 #c2d2e4;
+// }
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+	// background: rgb(238, 174, 202);
+	background: -moz-radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+	background: -webkit-radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+	background: radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+	border-radius: 3px;
+	border: 0px none #ffffff;
+}
