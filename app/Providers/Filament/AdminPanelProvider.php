@@ -27,8 +27,8 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->brandName("Idemoon")
             ->id('admin')
-            ->path('kcp')
             ->login()
+            ->path('kcp')
             ->colors([
                 'primary' => Color::Amber,
             ])
